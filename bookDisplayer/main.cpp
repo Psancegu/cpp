@@ -1,46 +1,84 @@
 #include <iostream>
 #include <string>
+#include <fstream>
 
 using namespace std;
 
-struct book {
+struct Book {
     string title;
     string author;
     int year;
     bool read;
 };
 
-book books[4] = {
-    {"Nunca Terminar", "David Goggins", 2023, true},
-    {"Recupera tu mente, reconquista tu vida", "Marian Rojas Estapé", 2024, false},
-    {"Todo Arde", "Juan Gómez Jurado", 2022, true},
-    {"Rey Blanco", "Juan Gómez Jurado", 2020, true}
-};
+Book books[100];
+int bookCount = 0;
+
+
+void readFile() {
+    ifstream file("books.txt");
+
+    if (!file) {
+        cerr << "Error al abrir el archivo" << endl;
+        return;
+    }
+
+    bookCount = 0;
+
+    while (bookCount < 100) {
+        Book b;
+        char discard; 
+        string readStr; 
+
+        
+        if (!getline(file, b.title, ',')) break; 
+        if (!getline(file, b.author, ',')) break;
+        file >> b.year >> discard;
+        file >> readStr;
+        file.ignore();
+
+        b.read = (readStr == "true");
+
+        books[bookCount++] = b;
+    }
+
+    file.close();
+}
+
+
 
 void showAll() {
-    for (const book b : books) {
-        cout << b.title << ", " << b.author << ", " << b.year << ", " << (b.read ? "Read.": "Not Read.") << endl;
+    cout << "\n Lista de todos los libros:\n";
+    for (int i = 0; i < bookCount; ++i) {
+        cout << books[i].title << ", " << books[i].author << ", " << books[i].year
+             << ", " << (books[i].read ? "Read" : "Not Read") << endl;
     }
 }
 
-void showRead(){
-    for (const book b : books){
-        if (b.read == true){
-            cout << b.title << ", " << b.author << ", " << b.year << "." << endl;
+
+void showRead() {
+    cout << "\n Libros que has leído:\n";
+    for (int i = 0; i < bookCount; ++i) {
+        if (books[i].read) {
+            cout << books[i].title << ", " << books[i].author << ", " << books[i].year << endl;
         }
     }
 }
 
-void showUnread(){
-    for (const book b : books){
-        if (b.read == false){
-            cout << b.title << ", " << b.author << ", " << b.year << "." << endl;
+
+void showUnread() {
+    cout << "\n Libros que aún no has leído:\n";
+    for (int i = 0; i < bookCount; ++i) {
+        if (!books[i].read) {
+            cout << books[i].title << ", " << books[i].author << ", " << books[i].year << endl;
         }
     }
 }
+
 
 
 int main() {
+    readFile();
     cout << "Enter A to display all books, R to display read books or U to display unread books:" << endl;
     char c;
     cin >> c;

@@ -1,0 +1,94 @@
+Nunca Terminar,David Goggins,2023,true
+Recupera tu mente reconquista tu vida,Marian Rojas Estapé,2024,false
+Todo Arde,Juan Gómez Jurado,2022,true
+Rey Blanco,Juan Gómez Jurado,2020,true
+El Poder de los Hábitos,Charles Duhigg,2012,false
+Cien Años de Soledad,Gabriel García Márquez,1967,true
+Sapiens,Yuval Noah Harari,2011,false
+Los Secretos de la Mente Millonaria,T. Harv Eker,2005,true
+El Hombre en Busca de Sentido,Viktor Frankl,1946,false
+Padre Rico Padre Pobre,Robert Kiyosaki,1997,true
+1984,George Orwell,1949,false
+El Arte de la Guerra,Sun Tzu,-500,true
+La Sombra del Viento,Carlos Ruiz Zafón,2001,false
+Hábitos Atómicos,James Clear,2018,true
+El Código Da Vinci,Dan Brown,2003,false
+Matar a un Ruiseñor,Harper Lee,1960,true
+El Principito,Antoine de Saint-Exupéry,1943,false
+Los Juegos del Hambre,Suzanne Collins,2008,true
+Orgullo y Prejuicio,Jane Austen,1813,false
+El Alquimista,Paulo Coelho,1988,true
+Crónica de una Muerte Anunciada,Gabriel García Márquez,1981,false
+Dune,Frank Herbert,1965,true
+El Nombre del Viento,Patrick Rothfuss,2007,false
+It,Stephen King,1986,true
+El Resplandor,Stephen King,1977,false
+Los Pilares de la Tierra,Ken Follett,1989,true
+Inferno,Dan Brown,2013,false
+La Chica del Tren,Paula Hawkins,2015,true
+Los Hombres que no Amaban a las Mujeres,Stieg Larsson,2005,false
+El Gran Gatsby,F. Scott Fitzgerald,1925,true
+Un Mundo Feliz,Aldous Huxley,1932,false
+La Ladrona de Libros,Markus Zusak,2005,true
+El Diario de Ana Frank,Ana Frank,1947,false
+Drácula,Bram Stoker,1897,true
+Cumbres Borrascosas,Emily Brontë,1847,false
+Los Miserables,Victor Hugo,1862,true
+La Metamorfosis,Franz Kafka,1915,false
+El Retrato de Dorian Gray,Oscar Wilde,1890,true
+Moby Dick,Herman Melville,1851,false
+Sherlock Holmes,Arthur Conan Doyle,1887,true
+Las Aventuras de Tom Sawyer,Mark Twain,1876,false
+Fahrenheit 451,Ray Bradbury,1953,true
+El Hobbit,J.R.R. Tolkien,1937,false
+El Señor de los Anillos,J.R.R. Tolkien,1954,true
+La Historia Interminable,Michael Ende,1979,false
+Percy Jackson y el Ladrón del Rayo,Rick Riordan,2005,true
+El Silmarillion,J.R.R. Tolkien,1977,false
+La Casa de los Espíritus,Isabel Allende,1982,true
+Cien Años de Perdón,Juan Gómez Jurado,2020,false
+El Ocho,Katherine Neville,1988,true
+El Tiempo entre Costuras,María Dueñas,2009,false
+El Hereje,Miguel Delibes,1998,true
+La Cúpula,Stephen King,2009,false
+El Psicoanalista,John Katzenbach,2002,true
+La Catedral del Mar,Ildefonso Falcones,2006,false
+Don Quijote de la Mancha,Miguel de Cervantes,1605,true
+Rayuela,Julio Cortázar,1963,false
+Memorias de una Geisha,Arthur Golden,1997,true
+Harry Potter y la Piedra Filosofal,J.K. Rowling,1997,false
+El Último Catón,Matilde Asensi,2001,true
+Ángeles y Demonios,Dan Brown,2000,false
+El Juego de Ender,Orson Scott Card,1985,true
+Los Detectives Salvajes,Roberto Bolaño,1998,false
+Guerra y Paz,León Tolstói,1869,true
+Anna Karenina,León Tolstói,1877,false
+La Divina Comedia,Dante Alighieri,1320,true
+El Conde de Montecristo,Alexandre Dumas,1844,false
+Madame Bovary,Gustave Flaubert,1856,true
+La Ilíada,Homero,-800,false
+La Odisea,Homero,-700,true
+Robinson Crusoe,Daniel Defoe,1719,false
+El Perfume,Patrick Süskind,1985,true
+Los Tres Mosqueteros,Alexandre Dumas,1844,false
+Hamlet,William Shakespeare,1603,true
+Romeo y Julieta,William Shakespeare,1597,false
+Othello,William Shakespeare,1603,true
+Macbeth,William Shakespeare,1606,false
+Las Mil y Una Noches,Anónimo,1704,true
+Peter Pan,James Matthew Barrie,1904,false
+La Isla del Tesoro,Robert Louis Stevenson,1883,true
+Las Crónicas de Narnia,C.S. Lewis,1950,false
+Alicia en el País de las Maravillas,Lewis Carroll,1865,true
+Frankenstein,Mary Shelley,1818,false
+El Exorcista,William Peter Blatty,1971,true
+Cazadores de Sombras,Cassandra Clare,2007,false
+Crepúsculo,Stephenie Meyer,2005,true
+Bajo la Misma Estrella,John Green,2012,false
+Divergente,Veronica Roth,2011,true
+El Código del Dinero,Raimon Samsó,2006,false
+Piensa y Hazte Rico,Napoleon Hill,1937,true
+La Magia del Orden,Marie Kondo,2011,false
+El Monje que Vendió su Ferrari,Robin Sharma,1997,true
+Los Cuatro Acuerdos,Miguel Ruiz,1997,false
+Vivir con Abundancia,Sergio Fernández,2015,true
