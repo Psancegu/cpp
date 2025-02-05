@@ -19,7 +19,7 @@ void readFile() {
     ifstream file("books.txt");
 
     if (!file) {
-        cerr << "Error al abrir el archivo" << endl;
+        cerr << "Error Opening File" << endl;
         return;
     }
 
@@ -48,7 +48,7 @@ void readFile() {
 
 
 void showAll() {
-    cout << "\n Lista de todos los libros:\n";
+    cout << "\n List of all books:\n";
     for (int i = 0; i < bookCount; ++i) {
         cout << books[i].title << ", " << books[i].author << ", " << books[i].year
              << ", " << (books[i].read ? "Read" : "Not Read") << endl;
@@ -57,7 +57,7 @@ void showAll() {
 
 
 void showRead() {
-    cout << "\n Libros que has leído:\n";
+    cout << "\n Read Books:\n";
     for (int i = 0; i < bookCount; ++i) {
         if (books[i].read) {
             cout << books[i].title << ", " << books[i].author << ", " << books[i].year << endl;
@@ -67,14 +67,13 @@ void showRead() {
 
 
 void showUnread() {
-    cout << "\n Libros que aún no has leído:\n";
+    cout << "\n Unread Books:\n";
     for (int i = 0; i < bookCount; ++i) {
         if (!books[i].read) {
             cout << books[i].title << ", " << books[i].author << ", " << books[i].year << endl;
         }
     }
 }
-
 
 
 int main() {
